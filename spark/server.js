@@ -32,7 +32,7 @@ app.use(express.json());
 
 //Insert your values here
 const sparkAccessToken ="ZjJmMzMyZmUtODY5OC00NzRhLTk3ZTYtOWNiZTI0YjVkNDE4MjcyOWRlZmQtMTNk_PF84_0d882151-70b4-4264-a09c-4a599e4494b1";
-const targetUrl = 'traffic at https://gcf-gknuzu7cma-uc.a.run.app';
+const targetUrl = 'https://gcf-gknuzu7cma-uc.a.run.app';
 const projectId = 'cbucc-mafg';
 
 const sessionClient = new dialogflowSessionClient(projectId);
