@@ -1,21 +1,22 @@
 {
-  "name": "spark-integration",
+  "name": "dialogflowFirebaseFulfillment",
+  "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",
   "version": "0.0.1",
-  "description": "A server that connects Google's dialogflow to spark",
-  "main": "server.js",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "10"
+  },
   "scripts": {
-    "start": "node server.js"
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
   },
   "dependencies": {
-    "dialogflow": "0.9.1",
-    "express": "^4.16.4",
-    "request": "^2.88.0"
-  },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "insert URL here"
-  },
-  "license": "Apache-2.0"
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2",
+    "dialogflow": "^0.6.0",
+    "dialogflow-fulfillment": "^0.5.0"
+  }
 }
