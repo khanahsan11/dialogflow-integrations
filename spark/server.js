@@ -32,7 +32,7 @@ app.use(express.json());
 
 //Insert your values here
 const sparkAccessToken ="NWU2MzZkNTItNzZhMS00NzdhLWEyZWYtNTY5ZjZkZTc1NDkzNTk5YjI5ZjgtZjY4_PF84_0d882151-70b4-4264-a09c-4a599e4494b1";
-const targetUrl = 'xx';
+const targetUrl = 'https://uccsample-opnhv2keoq-de.a.run.app';
 const projectId = 'tragent-lngb';
 
 const sessionClient = new dialogflowSessionClient(projectId);
