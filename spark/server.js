@@ -32,7 +32,7 @@ app.use(express.json());
 
 //Insert your values here
 const sparkAccessToken ="ODZhM2EyYjgtNzg0MS00NTQ5LWJiMTgtNmVmM2UwMTAyNDFjNDQ3M2M0YmQtMDUx_PF84_0d882151-70b4-4264-a09c-4a599e4494b1";
-const targetUrl = 'aaa';
+const targetUrl = 'https://dialogflow-spark-rkuvrzmt6a-uc.a.run.app';
 const projectId = 'agentucc2-maue';
 
 const sessionClient = new dialogflowSessionClient(projectId);
