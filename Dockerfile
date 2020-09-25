@@ -4,7 +4,7 @@
 
    # Create and change to the app directory.
    #WORKDIR /usr/src/app
-   WORKDIR /home/kunwarahsan34/chatapp/dialogflow-integrations/spark/
+   WORKDIR /home/kunwarahsan34/dialogflow-integrations/
 
    # Set this environmental variable to the integration you want to use
    ENV INTEGRATION=spark
